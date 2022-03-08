@@ -69,7 +69,7 @@ export default class App extends React.Component {
         <h1>Todos</h1>
         
         <TodoList toggle={this.toggle} todos={todos} />
-        <Form addNew={this.submitAdd}/>
+        <Form submitAdd={this.submitAdd} />
         <button onClick={this.clearInput}>Clear</button>
       </div>
     )
